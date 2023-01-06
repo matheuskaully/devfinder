@@ -78,12 +78,12 @@ export function TopArea({setUser}: TopAreaProps) {
           {lightMode ? (
             <>
               DARK
-              <img src="src\assets\icon-moon.svg" alt="Dark mode" />
+              <img src="assets/icon-moon.svg" alt="Dark mode" />
             </>
           ) : (
             <>
               LIGHT
-              <img src="src\assets\icon-sun.svg" alt="Light mode" />
+              <img src="assets/icon-sun.svg" alt="Light mode" />
             </>
           )}
         </ChangeThemeBtn>
@@ -95,7 +95,7 @@ export function TopArea({setUser}: TopAreaProps) {
         }}  
       >
         <InputLabel>
-          <img src='src\assets\icon-search.svg' />
+          <img src='assets/icon-search.svg' />
         </InputLabel>
         <Input
           ref={usernameRef}
